@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tsukimi/homepage.dart';
+import 'package:tsukimi/pages/welcome.dart';
 
 void main() {
   runApp(const App());
@@ -41,7 +42,7 @@ class App extends StatelessWidget {
 		),
       ),
       themeMode: ThemeMode.system,
-      home: const HomePage(title: 'tsukimi'),
+      home: const WelcomePage(),
     );
   }
 }
